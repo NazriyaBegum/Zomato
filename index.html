@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"<link rel="stylesheet" href="style.css"/>
+    <title>Zomato | Home</title>
+</head>
+<body>
+    <div id="header-img">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container">
+                  <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-mobile-screen-button text-white mx-2"></i>Get the App</a>
+                  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-user"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                      <a class="nav-link text-white" href="#">Investor Relations</a>
+                      <a class="nav-link text-white" href="#">Add restaurent</a>
+                      <a class="nav-link text-white" href="#">Log in</a>
+                      <a class="nav-link text-white" href="#">Sign up</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="container">
+            <div class="d-flex justify-content-center header-flex">
+                <div class="zomato text-center">
+                    <img src="8313a97515fcb0447d2d77c276532a511583262271.avif">
+                   <p>Discover the best food and drinks in chhindwara</p>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col-12 d-flex search justify-content-center mt-4">
+                 <div class="dropdown">
+                    <button class="btnd d-flex text-start border-right-0 bg-light text-secondary text-center btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-location-dot me-2 text-danger text-center"></i><p class="me-5 mt-3 ">chhindwara</p>        
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-location-crosshairs text-danger mx-2"></i>Detect Location</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 search-icon">
+                      <i class="fa-solid fa-magnifying-glass text-secondary px-2 pt-3"></i>
+                  </div>
+                  <input type="text" placeholder="Search for restaurent cuisine or a dish" class="search-box"/>
+                </d-flex>
+          
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <div class="card">
+            <img src="e5b8785c257af2a7f354f1addaf37e4e1647364814.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text fs-5 fw-300">Order Online</p>
+                <p1>Stay home and Order to your door step</p1>
+            </div>
+         </div>
+      </div>
+     </div>
+
+   
+    <div class="popular">
+      <p>Popular Localities in and around <b>Chhindwara</b></p>
+    </div>
+    <div class="row">
+        <div class="col-12">
+           <button type="button" class=" d-flex btn fs-5">
+                <div class="local text-start">
+                    <p1>Chhindwara Locality</p1> 
+                    <p class=" text-secondary">192 places</p>
+                </div>
+                <i class="fa-solid fa-greater-than pt-3 fs-5 ps-5"></i>
+            </button>
+        </div>
+    </div>
+    </div>
+  <div class="container-fluid" style="background-color:#fffbf7;">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <div class="app text-end">
+          <img class = "ms-5 text-end" src="ce5bc038a8a2d4f8f24465c8826182af1726501431.avif" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="get-app">
+          <p>Get the Zomato app</p>
+          <div class="radio d-flex ms-2">
+               <div class="form-check">
+                <input class="form-check-input bg-danger border-danger" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Email
+                 </label>
+              </div>
+              <div class="form-check">
+                 <input class="ms-2 form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="ms-1 form-check-label" for="flexRadioDefault2">
+                  Phone
+                  </label>
+              </div>
+          </div>
+          <input type="text" placeholder=" Email" id="inp" class="mt-3 email">
+          <button class="btnapp text-light bg-danger">Share App link</button>
+          <br/>
+          <lable id="error" style="display:none;color:red">Please enter your email id</lable>
+          <p1 class="download text-secondary mt-5">Download app from</p1><br/>
+          <img class="mt-2" src="23e930757c3df49840c482a8638bf5c31556001144.webp">
+          <img class="mt-2" src="9f0c85a5e33adb783fa0aef667075f9e1556003622.webp">
+        </div>
+      </div>
+    </div>
+    <div class="explore">
+    <p class="mt-2">Explore options near me</p>
+    </div>
+    <div class="container">
+    <div class="row bg-light">
+      <div class="col-12">
+        <div class="droppdown mt-2 d-flex justify-content-between">
+          <p class="mt-3 ms-2">Popular cuisines near me</p>
+          <i class="fa-solid fa-caret-down mt-4 me-5"></i>
+          </div>
+      </div>
+    </div>
+    <div class="row bg-light mt-2">
+      <div class="col-12">
+        <div class="droppdown d-flex justify-content-between">
+         <p class="mt-3 ms-2">Popular restaurent types near me</p> 
+         <i class="fa-solid fa-caret-down mt-4 me-5"></i>
+          </div>
+      </div>
+    </div>
+    <div class="row bg-light mt-2">
+      <div class="col-12">
+        <div class="droppdown d-flex justify-content-between">
+             <p class="mt-3 ms-2">Cities We deliver To</p>
+              <i class="fa-solid fa-caret-down mt-4 me-5"></i>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="footerhead mt-5" style="background-color:#f8f8f8">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="cont-lang d-flex justify-content-between mt-5">
+            <img src="WhatsApp Image 2024-09-19 at 20.20.54_f4acc5fb.jpg" style="height:50px;width:110px;border:none;margin-left: 20px;">
+            <div class="dright">
+            <div class="dropdown d-flex ">
+              <button class="butn butn-white bg-white border-1 me-2 dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="th (1).jpeg" style="height:18px;width:25px;margin-bottom:3px;margin-right:5px;">India
+              </button>
+              <div class="dropdown">
+                <button class="butn butn-white bg-white border-1 dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-globe me-1"></i>English
+                </button>
+                </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h6 class="text-dark mt-4 ms-4">About Zomato</h6>
+        <ul class=" mt-4 me-5 aboutz text-secondary">
+          <p>Who We Are</p>
+          <p>Blog</p> 
+          <p>Work With Us</p> 
+          <p>Investor Relations</p> 
+          <p>Report Fraud</p> 
+          <p>Press Kit</p> 
+            <p>Contact Us </p>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h6 class="text-dark mt-4 ms-4">ZOMAVERSE</h6>
+        <ul class="mt-4 aboutz text-secondary">
+          <p>Zomato</p>
+          <p>Blinkit</p> 
+          <p>Feeding India</p>  
+          <p>Hyperpure</p> 
+          <p>Zomato Live</p> 
+          <P>Zomaland</P>
+            <p>Weather Union </p>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h6 class="text-dark mt-4 ms-4">FOR RESTAURENTS</h6>
+        <ul class=" mt-4 me-2 aboutz text-secondary">
+          <p>Partner With Us</p>
+          <p>Apps For You</p> 
+          <p>Work With Us</p> 
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h6 class="text-dark mt-4 ms-4">LEARN MORE</h6>
+        <ul class=" mt-4 me-5 aboutz text-secondary">
+          <p>Privacy</p>
+          <p>Security</p> 
+          <p>Terms</p> 
+          <p>Sitemap</p> 
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h6 class="text-dark mt-4 ms-4">SOCIAL LINKS</h6>
+        <ul class=" mt-4 me-5 aboutz text-secondary">
+          <i class="fa-brands text-dark me-2 fa-linkedin"></i><i class="fa-brands text-dark me-2 fa-square-instagram"></i><i class="fa-brands text-dark me-2 fa-square-twitter"></i><i class="fa-brands me-2 text-dark fa-square-youtube"></i><i class="fa-brands text-dark me-2 fa-facebook"></i>
+          <img class="mt-2" src="23e930757c3df49840c482a8638bf5c31556001144.webp" style="height:40px;width:110px">
+          <img class="mt-2" src="9f0c85a5e33adb783fa0aef667075f9e1556003622.webp"style="height:40px;width:110px">
+        </ul>
+      </div>
+    </div>
+    
+  <hr/>
+  <p class="end text-secondary">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+     $('#inp').blur(function(){
+            var text=$(this).val;
+            if(text.length<4){
+            $('#error').show();
+            }
+            else
+            {
+            $('#error').hide();
+            }
+        })
+      })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
